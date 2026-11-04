@@ -1,5 +1,8 @@
 # 001 — YOLO26s RDD2022 Baseline
 
+**Status:** Completed checkpoint; canonical corrected evaluation is in
+[experiment 003](../003_yolo26s_baseline_error_diagnostics/).
+
 ## Goal
 
 Establish a YOLO26s baseline on the RDD2022 China subset and test whether
@@ -47,11 +50,16 @@ See [`results/README.md`](results/README.md) for the result manifest.
 
 | Metric | Value |
 |---|---:|
-| mAP50 | Pending |
-| mAP50–95 | Pending |
-| Precision | Pending |
-| Recall | Pending |
+| mAP50 | 0.8453 |
+| mAP50–95 | 0.5802 |
+| Precision | 0.8563 |
+| Recall | 0.7992 |
 
 ## Conclusion
 
-Pending execution.
+The baseline is suitable as the unchanged reference for controlled follow-up
+experiments. These values come from the checkpoint evaluation and corrected
+error analysis in experiment 003; use that experiment's CSV files as the
+canonical metric source. The notebook here is the cleaned reproduction
+protocol and should be rerun from a fresh environment before claiming an
+independent reproduction.

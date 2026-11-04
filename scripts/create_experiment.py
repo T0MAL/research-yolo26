@@ -47,7 +47,11 @@ def create_experiment(name: str) -> Path:
     values = {"ID": experiment_id, "TITLE": name.strip()}
     render(TEMPLATES / "experiment.ipynb", destination / "experiment.ipynb", values)
     render(TEMPLATES / "README.md", destination / "README.md", values)
-    (destination / "results" / ".gitkeep").touch()
+    render(
+        TEMPLATES / "results_README.md",
+        destination / "results" / "README.md",
+        values,
+    )
     (destination / "checkpoints" / ".gitkeep").touch()
 
     # Fail immediately if a template edit ever produces malformed JSON.

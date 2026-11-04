@@ -39,6 +39,11 @@ class RepositoryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             create_experiment.slugify("---")
 
+    def test_result_manifest_template_exists(self) -> None:
+        self.assertTrue(
+            (ROOT / "notebooks" / "templates" / "results_README.md").is_file()
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

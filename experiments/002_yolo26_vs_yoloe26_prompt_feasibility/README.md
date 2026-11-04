@@ -1,5 +1,9 @@
 # 002 — YOLO26 vs YOLOE-26 Prompt Feasibility
 
+**Status:** Interrupted during rich-prompt training at epoch 9 of 50. The
+notebook retains the partial execution trace, but no prompt-model result or
+semantic-effect conclusion was produced.
+
 ## Goal
 
 Determine whether an in-model vision-language prompt head provides a genuine
@@ -70,8 +74,20 @@ plain-prompt-training controls in the notebook.
 | Paired recall | Pending | Pending | Pending |
 | T4 latency (ms/image) | Pending | Pending | Pending |
 
+### Completed before interruption
+
+The baseline checkpoint was successfully re-evaluated:
+
+| Metric | YOLO26s baseline |
+|---|---:|
+| mAP50 | 0.8453 |
+| mAP50–95 | 0.5802 |
+| Precision | 0.8563 |
+| Recall | 0.7992 |
+
 ## Decision
 
-Pending execution. A prompt-based paper direction should only proceed when
-semantic prompt controls, paired statistics, and efficiency measurements
-support the claim.
+No decision can be made from this run. Resume or restart training, then execute
+the correct/plain/shuffled/nonsense prompt controls, matched-budget control,
+paired statistics, and efficiency measurements before treating the direction
+as supported.

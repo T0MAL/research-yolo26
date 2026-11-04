@@ -1,5 +1,9 @@
 # Result manifest
 
+**Current state:** no compact result tables were produced because training was
+interrupted. The baseline values visible in the notebook are corroborated by
+experiment 003; they are not a prompt-model result.
+
 Copy small outputs from the Colab Drive run into this directory and record the
 full artifact location below.
 

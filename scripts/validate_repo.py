@@ -67,6 +67,11 @@ def validate_repo() -> list[str]:
         for name in REQUIRED_DIRS:
             if not (directory / name).is_dir():
                 errors.append(f"{directory.relative_to(ROOT)}: missing {name}/")
+        result_manifest = directory / "results" / "README.md"
+        if not result_manifest.is_file():
+            errors.append(
+                f"{directory.relative_to(ROOT)}: missing results/README.md"
+            )
 
     if not experiments:
         errors.append("no experiment directories found")
