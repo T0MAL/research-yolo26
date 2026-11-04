@@ -1,0 +1,9 @@
+split,bucket,n_gt,AP50_95,AP50,AP75,maxRecall50
+valid_set,AR<2,231,0.0,0.0,0.0,0.0
+valid_set,AR2-4,255,0.0,0.0,0.0,0.0
+valid_set,AR4-8,277,0.0,0.0,0.0,0.0
+valid_set,AR>=8,113,0.0,0.0,0.0,0.0
+test_set,AR<2,235,0.0,0.0,0.0,0.0
+test_set,AR2-4,251,0.0,0.0,0.0,0.0
+test_set,AR4-8,294,0.0,0.0,0.0,0.0
+test_set,AR>=8,113,0.0,0.0,0.0,0.0
