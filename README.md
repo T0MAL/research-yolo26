@@ -42,6 +42,40 @@ The 728 unmatched predictions from that analysis are deliberately
 low-threshold diagnostic candidates, not the model's official false-positive
 rate.
 
+## Additional reported run results
+
+The [run archive](records/README.md) records 12 model/configuration results
+from [the supplied experiment log](runs%20%285%29%20%281%29.pdf), transcribed on
+2026-11-04. The PDF is dated 2026-05-02; individual run dates are not reported.
+These are **PDF-reported results**, with source-page references and training
+settings preserved in CSV files. They have not been independently reproduced
+and do not replace the canonical checkpoint evaluation above.
+
+All values below are **test** metrics on a 0–1 scale. Dataset variants have
+different splits and class counts; compare within a setup.
+
+| Dataset | Model | Epochs / batch | Augmentation | mAP50 | mAP50–95 | Precision | Recall |
+|---|---|---|---|---:|---:|---:|---:|
+| China MotorBike, 4 classes | YOLO26m | 200 / 32 | Paper-style/default | 0.902 | 0.599 | 0.899 | 0.904 |
+| China MotorBike, 4 classes | YOLO11m | 200 / 32 | Paper-style/default | 0.911 | 0.605 | 0.900 | 0.888 |
+| China All, 5 classes | YOLO26s | 300 / 32 | Explicit settings | 0.848 | 0.569 | 0.850 | 0.811 |
+| China All, 5 classes | YOLO8m | 300 / 32 | Explicit settings | 0.839 | 0.552 | 0.846 | 0.811 |
+| China All, 5 classes | YOLO8s | 300 / 16 | Explicit settings | 0.856 | 0.545 | 0.867 | 0.813 |
+| China All, 5 classes | YOLO26m | 300 / 16 | Explicit settings | 0.850 | 0.567 | 0.877 | 0.804 |
+| All, 4 classes | YOLO26s | 100 / 32 | Disabled | 0.425 | 0.191 | 0.555 | 0.428 |
+| All, 4 classes | YOLO26s | 100 / 16 | Default | 0.576 | 0.299 | 0.657 | 0.524 |
+| All, 4 classes | YOLO8s | 100 / 16 | Default | 0.588 | 0.302 | 0.641 | 0.557 |
+| Japan, 4 classes | YOLO26s | 100 / 32 | Disabled | 0.390 | 0.162 | 0.495 | 0.434 |
+| Japan, 4 classes | YOLO26s | 100 / 16 | Default | 0.533 | 0.240 | 0.569 | 0.543 |
+| Japan, 4 classes | YOLO8s | 100 / 16 | Default | 0.537 | 0.241 | 0.565 | 0.523 |
+
+Model names `YOLO8s` and `YOLO8m` follow the PDF spelling. China All YOLO26s
+also reports validation mAP50 **0.883**, mAP50–95 **0.597**, precision **0.864**,
+and recall **0.837**. See the archive for per-class scores and full setup.
+The disabled/default comparisons also change batch size and workers; Japan
+additionally changes learning rate from 0.01 to 0.02. They do not isolate an
+augmentation effect. Seeds, package versions, and checkpoint hashes are absent.
+
 ## Experiment map
 
 | ID | Experiment | Status | Evidence or outcome |
@@ -66,6 +100,7 @@ See [JOURNAL.md](JOURNAL.md) for the decision log and provenance notes.
 │       ├── results/      # Small, reviewable tables and manifests
 │       └── checkpoints/  # Weights excluded from Git
 ├── notebooks/templates/  # Clean experiment templates
+├── records/              # PDF-reported runs, CSV metrics, and provenance
 ├── data/
 │   ├── raw/              # Local source data excluded from Git
 │   └── processed/        # Local derived data excluded from Git

@@ -1,5 +1,11 @@
 # Experiments
 
+Additional runs supplied as a PDF are indexed in the
+[reported run archive](../records/README.md), with CSV metrics and source
+provenance. They have no accompanying executed notebooks and therefore use
+separate record IDs rather than new numbered experiment directories. Their
+status is **reported in PDF**, not independently reproduced.
+
 Each numbered directory is a research unit with one primary notebook and an
 evidence record:
 

@@ -1,0 +1,25 @@
+record_id,split,class_name,map50_95,source_file,source_page
+RUN-ALL-4C-001-all_yolo26s_disabled,test,longitudinal crack,0.212,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_disabled,test,transverse crack,0.171,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_disabled,test,alligator crack,0.264,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_disabled,test,pothole,0.117,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,test,longitudinal crack,0.337,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,test,transverse crack,0.263,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,test,alligator crack,0.387,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,test,pothole,0.209,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,test,longitudinal crack,0.333,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,test,transverse crack,0.271,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,test,alligator crack,0.382,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,test,pothole,0.221,runs (5) (1).pdf,5
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,test,longitudinal crack,0.133,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,test,transverse crack,0.112,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,test,alligator crack,0.257,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,test,pothole,0.148,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,test,longitudinal crack,0.222,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,test,transverse crack,0.152,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,test,alligator crack,0.334,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,test,pothole,0.253,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo8s_default,test,longitudinal crack,0.225,runs (5) (1).pdf,7
+RUN-JAPAN-4C-001-japan_yolo8s_default,test,transverse crack,0.173,runs (5) (1).pdf,7
+RUN-JAPAN-4C-001-japan_yolo8s_default,test,alligator crack,0.335,runs (5) (1).pdf,7
+RUN-JAPAN-4C-001-japan_yolo8s_default,test,pothole,0.232,runs (5) (1).pdf,7

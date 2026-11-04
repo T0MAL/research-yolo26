@@ -1,0 +1,13 @@
+record_id,source_run_id,dataset_id,model_as_reported,image_size,optimizer,momentum,weight_decay,seed,package_versions,checkpoint_sha256,run_date,status,batch_size,epochs_as_reported,learning_rate,augmentation_profile,workers,warmup_epochs,cache,amp,label_smoothing,hardware,source_file,source_page
+RUN-CM-001-cm_yolo26m,RUN-CM-001,DB-RDD22-CM-4C-V1,YOLO26m,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,200,0.01,paper_style_default,,,,,,,runs (5) (1).pdf,3
+RUN-CM-001-cm_yolo11m,RUN-CM-001,DB-RDD22-CM-4C-V1,YOLO11m,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,200,0.01,paper_style_default,,,,,,,runs (5) (1).pdf,3
+RUN-CHINA-ALL-001-china_yolo26s,RUN-CHINA-ALL-001,DB-RDD22-CHINA-ALL-5C-V1,YOLO26s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,300,0.01,china_explicit,16,3,disk,,,NVIDIA L4,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo8m,RUN-CHINA-ALL-001,DB-RDD22-CHINA-ALL-5C-V1,YOLO8m,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,300,0.01,china_explicit,16,3,disk,,,NVIDIA L4,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo8s,RUN-CHINA-ALL-001,DB-RDD22-CHINA-ALL-5C-V1,YOLO8s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,300,0.01,china_explicit,16,3,disk,,,NVIDIA L4,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo26m,RUN-CHINA-ALL-001,DB-RDD22-CHINA-ALL-5C-V1,YOLO26m,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,300,0.01,china_explicit,16,3,disk,,,NVIDIA L4,runs (5) (1).pdf,4
+RUN-ALL-4C-001-all_yolo26s_disabled,RUN-ALL-4C-001,DB-RDD22-ALL-4C-V2,YOLO26s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,100,0.01,disabled,16,3,disk,true,0.1,,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,RUN-ALL-4C-001,DB-RDD22-ALL-4C-V2,YOLO26s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,100,0.01,default,8,3,disk,true,0.1,,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,RUN-ALL-4C-001,DB-RDD22-ALL-4C-V2,YOLO8s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,100,0.01,default,8,3,disk,true,0.1,,runs (5) (1).pdf,5
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,RUN-JAPAN-4C-001,DB-RDD22-JAPAN-4C-V2,YOLO26s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,32,100,0.01,disabled,16,3,disk,true,,,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,RUN-JAPAN-4C-001,DB-RDD22-JAPAN-4C-V2,YOLO26s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,100,0.02,default,8,3,disk,true,,,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo8s_default,RUN-JAPAN-4C-001,DB-RDD22-JAPAN-4C-V2,YOLO8s,640,SGD,0.937,0.0005,,,,,reported_in_pdf,16,100,0.02,default,8,3,disk,true,,,runs (5) (1).pdf,7

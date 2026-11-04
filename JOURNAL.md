@@ -3,6 +3,38 @@
 This file is the experiment index and decision log. Status labels distinguish
 completed evidence from exploratory, interrupted, and invalidated work.
 
+## 2026-11-04 — Imported reported run results
+
+**Source:** [runs (5) (1).pdf](runs%20%285%29%20%281%29.pdf), *RDD2022 + YOLO26
+Experiment Database — Clean Experiment Log*, last updated 2026-05-02 according
+to its cover. This entry dates the transcription, not execution of the runs.
+
+**Record:** Added [the run archive](records/README.md), containing 12
+model/configuration records, 12 test metric rows, one validation row, and 24
+per-class mAP50–95 values. CSVs preserve dataset IDs, source run IDs, split
+sizes, training settings, and page references; the provenance manifest records
+the source PDF checksum. Metrics are transcribed from the run tables, not the
+embedded paper comparisons.
+
+| Source run group | Dataset | Reported test mAP50 / mAP50–95 |
+|---|---|---|
+| RUN-CM-001 | China MotorBike, 4 classes | YOLO26m 0.902 / 0.599; YOLO11m 0.911 / 0.605 |
+| RUN-CHINA-ALL-001 | China All, 5 classes | YOLO26s 0.848 / 0.569; YOLO8m 0.839 / 0.552; YOLO8s 0.856 / 0.545; YOLO26m 0.850 / 0.567 |
+| RUN-ALL-4C-001 | All, 4 classes | YOLO26s disabled 0.425 / 0.191; YOLO26s default 0.576 / 0.299; YOLO8s default 0.588 / 0.302 |
+| RUN-JAPAN-4C-001 | Japan, 4 classes | YOLO26s disabled 0.390 / 0.162; YOLO26s default 0.533 / 0.240; YOLO8s default 0.537 / 0.241 |
+
+**Limits:** The PDF's `DB-RDD22-FULL-4C-V1` entry appears only in its index,
+without a detailed run result. Model names above retain the source spelling.
+The source lacks individual run dates, seeds, package versions, and checkpoint
+hashes. Default/disabled comparisons also change batch size and workers, plus
+learning rate on Japan; they are not isolated augmentation ablations.
+
+**Decision:** Retain these as PDF-reported evidence with explicit provenance.
+Keep experiment 003's canonical evaluation and experiment 005's invalidated
+status intact until checkpoint and source/output lineage can be established.
+Recover raw logs and dataset/checkpoint manifests before claiming reproducible
+or paper-comparable results.
+
 ## Experiment index
 
 | ID | Date | Experiment | Status | Key result or decision |

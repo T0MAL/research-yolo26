@@ -30,6 +30,12 @@ validation metrics are not treated as evidence and no CSV result is committed.
 
 ## Valid rerun requirements
 
+The [PDF run archive](../../records/README.md), added on 2026-11-04, separately
+reports All 4-class YOLO26s and YOLO8s results under `RUN-ALL-4C-001`. These do
+not establish the lineage of this notebook's intended YOLO26m run, so its
+invalidated status remains unchanged. The PDF's Full V1 YOLO26s/YOLO26m entry
+appears only in its index and has no detailed result to recover.
+
 1. Use one model name and one run directory throughout the notebook.
 2. Detect and assert the actual split directory names before any audit.
 3. Record dataset checksum, country composition, split policy, seed, package

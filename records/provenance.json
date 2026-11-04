@@ -1,0 +1,23 @@
+{
+  "source_file": "runs (5) (1).pdf",
+  "source_title": "RDD2022 + YOLO26 Experiment Database \u2014 Clean Experiment Log",
+  "researcher_as_reported": "Md. Tahmid Islam Tomal",
+  "source_last_updated_as_reported": "2026-05-02",
+  "recorded_on": "2026-11-04",
+  "source_sha256": "14b3ebd3fb7d7c7d524668e912f5b3e1fc31859ff9d247ae166bbdea6676766d",
+  "source_pages": 7,
+  "status": "reported_in_pdf",
+  "run_configurations": 12,
+  "test_metric_rows": 12,
+  "validation_metric_rows": 1,
+  "per_class_metric_rows": 24,
+  "dataset_records": 5,
+  "index_only_dataset_id": "DB-RDD22-FULL-4C-V1",
+  "notes": [
+    "Source update date is not a run execution date.",
+    "Values transcribed from run tables, not embedded paper comparison screenshots.",
+    "Repository record IDs disambiguate multiple configurations under each source run ID.",
+    "YOLO8s and YOLO8m spelling is preserved from the source.",
+    "No checkpoint identity is established with numbered experiments 001-006."
+  ]
+}

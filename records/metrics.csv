@@ -1,0 +1,14 @@
+record_id,split,map50,map50_95,precision,recall,images,instances,source_file,source_page
+RUN-CM-001-cm_yolo26m,test,0.902,0.599,0.899,0.904,242,,runs (5) (1).pdf,3
+RUN-CM-001-cm_yolo11m,test,0.911,0.605,0.900,0.888,242,,runs (5) (1).pdf,3
+RUN-CHINA-ALL-001-china_yolo26s,test,0.848,0.569,0.850,0.811,438,,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo26s,validation,0.883,0.597,0.864,0.837,438,,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo8m,test,0.839,0.552,0.846,0.811,438,,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo8s,test,0.856,0.545,0.867,0.813,438,,runs (5) (1).pdf,4
+RUN-CHINA-ALL-001-china_yolo26m,test,0.850,0.567,0.877,0.804,438,,runs (5) (1).pdf,4
+RUN-ALL-4C-001-all_yolo26s_disabled,test,0.425,0.191,0.555,0.428,2184,5172,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo26s_default,test,0.576,0.299,0.657,0.524,2184,5172,runs (5) (1).pdf,5
+RUN-ALL-4C-001-all_yolo8s_default,test,0.588,0.302,0.641,0.557,2184,5172,runs (5) (1).pdf,5
+RUN-JAPAN-4C-001-japan_yolo26s_disabled,test,0.390,0.162,0.495,0.434,790,1661,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo26s_default,test,0.533,0.240,0.569,0.543,790,1661,runs (5) (1).pdf,6
+RUN-JAPAN-4C-001-japan_yolo8s_default,test,0.537,0.241,0.565,0.523,790,1661,runs (5) (1).pdf,7

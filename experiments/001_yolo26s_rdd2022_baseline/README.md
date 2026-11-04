@@ -63,3 +63,11 @@ error analysis in experiment 003; use that experiment's CSV files as the
 canonical metric source. The notebook here is the cleaned reproduction
 protocol and should be rerun from a fresh environment before claiming an
 independent reproduction.
+
+## Related reported runs
+
+The [PDF run archive](../../records/README.md) includes a China All YOLO26s
+configuration with 300 epochs and batch 32, reporting test mAP50 0.848 and
+mAP50–95 0.569. Its checkpoint identity with this experiment is unverified;
+those values remain a separate record and do not replace the canonical
+evaluation above.
