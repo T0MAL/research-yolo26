@@ -1,0 +1,2 @@
+overall_gt,localization_recall_any_class,correct_detection_recall,classification_accuracy_given_localized,wrong_class_rate_given_localized,high_aspect_ratio_miss_rate,small_object_miss_rate
+893,0.8701007838745801,0.8611422172452408,0.9897039897039897,0.010296010296010296,0.11547911547911549,0.1228070175438597

@@ -1,0 +1,6 @@
+true_class,predicted_as,count,fraction_of_localized_true_class
+pothole,alligator crack,1,0.034482758620689655
+repair,longitudinal crack,2,0.023255813953488372
+transverse crack,longitudinal crack,3,0.014218009478672985
+longitudinal crack,transverse crack,1,0.002652519893899204
+longitudinal crack,alligator crack,1,0.002652519893899204
